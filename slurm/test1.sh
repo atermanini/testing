@@ -13,4 +13,4 @@ echo "Job submitted to the ${SLURM_JOB_PARTITION} partition, the default partiti
 echo "I have ${SLURM_CPUS_ON_NODE} CPUs on compute node $(hostname)"
 
 echo $SLURM_SUBMIT_DIR;
-echo $SLURM_CPUS_ON_NODE;
+echo $SLURM_NTASKS;
