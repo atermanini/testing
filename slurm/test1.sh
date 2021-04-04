@@ -13,10 +13,35 @@ echo "Job submitted to the ${SLURM_JOB_PARTITION} partition, the default partiti
 echo "I was launched from $SLURM_SUBMIT_DIR"
 echo "I have ${SLURM_CPUS_ON_NODE} CPUs on compute node $(hostname)"
 
-sleep 20;
-echo "$(date)"
+sleep 10s;
 echo "still here";
 
-sleep 20;
-echo "$(date)"
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
+echo "still here";
+
+sleep 10s;
 echo "still here";
