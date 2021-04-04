@@ -8,9 +8,9 @@
 
 
 echo "Starting at $(date)"
-
-echo "Job submitted to the ${SLURM_JOB_PARTITION} partition, the default partition on ${SLURM_CLUSTER_NAME}"
-
 echo "Job name: ${SLURM_JOB_NAME}, Job ID: ${SLURM_JOB_ID}"
+echo "Job submitted to the ${SLURM_JOB_PARTITION} partition, the default partition on ${SLURM_CLUSTER_NAME}"
+echo "I have ${SLURM_CPUS_ON_NODE} CPUs on compute node $(hostname)"
 
-echo "  I have ${SLURM_CPUS_ON_NODE} CPUs on compute node $(hostname)"
+echo $SLURM_SUBMIT_DIR;
+echo $SLURM_CPUS_ON_NODE;
